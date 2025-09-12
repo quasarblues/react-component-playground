@@ -1,7 +1,7 @@
 import Die from "./Die"
 import "./Dice.css"
 
-function Dice({ dice, color }) {
+function Dice({ dice = [1, 4], color = 'slateblue' }) {
     return (
         <section className="Dice">
             {dice.map((v, i) => (
