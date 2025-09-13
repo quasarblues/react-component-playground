@@ -1,6 +1,6 @@
 .Dice {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     border: solid 2px gray;
     padding: 0.5rem;
     text-align: center;
