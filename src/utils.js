@@ -10,8 +10,4 @@ function sum(nums) {
     return nums.reduce((prev, cur) => prev + cur, 0)
 }
 
-function evenScore(dice) {
-    return (sum(dice) % 2) === 0;
-}
-
-export { d6, getRolls, sum, evenScore };
+export { d6, getRolls, sum };
